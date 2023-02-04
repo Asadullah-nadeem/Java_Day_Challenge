@@ -6,8 +6,8 @@ import java.util.TreeMap;
 public class Day91 {
     public static void main(String[] args) {
         try{
-            File f = new File("mainBook.txt");
-            Scanner s;
+            File f = new File("mainBook.me");
+            Scanner s; 
             //s.useDelimiter("[^a-zA-Z']+");
             s = new Scanner(f);
             Map<String, Integer> wordCount = new TreeMap<String, Integer>();
